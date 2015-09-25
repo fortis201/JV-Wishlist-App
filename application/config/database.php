@@ -5,17 +5,17 @@ $active_record = TRUE;
 
 if(ENVIRONMENT == 'production')
 {
-	$db['default']['hostname'] = 'localhost';
-	$db['default']['username'] = 'root';
-	$db['default']['password'] = '';
-	$db['default']['database'] = '';
+        $db['default']['hostname'] = '127.0.0.1';
+        $db['default']['username'] = 'bar';
+        $db['default']['password'] = 'password';
+        $db['default']['database'] = 'RevWishlist';
 }
 else
 {
-	$db['default']['hostname'] = 'localhost';
-	$db['default']['username'] = 'root';
-	$db['default']['password'] = 'root';
-	$db['default']['database'] = 'RevampedWishlistDb';
+	$db['default']['hostname'] = '127.0.0.1';
+	$db['default']['username'] = 'bar';
+	$db['default']['password'] = 'password';
+	$db['default']['database'] = 'RevWishlist';
 }
 
 $db['default']['dbdriver'] = 'mysql';

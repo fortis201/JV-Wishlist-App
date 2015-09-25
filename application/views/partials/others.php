@@ -8,7 +8,7 @@
 	</tr>
 	<?php
 	foreach ($others_list as $data2) {
-		var_dump($data2);
+		//var_dump($data2);
 	?>
 	<tr>				
 		<td>

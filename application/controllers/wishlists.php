@@ -10,7 +10,7 @@ class Wishlists extends CI_Controller {
 
 	public function index()	{
 		$my_list = $this->wishlist->show_list($this->session->userdata('id'));
-		$this->load->view('index', array('my_list'=>$my_list));
+		$this->load->view('main', array('my_list'=>$my_list));
 	}
 
 	function show_others() {
